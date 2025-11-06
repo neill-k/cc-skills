@@ -2,7 +2,9 @@
   "name": "CC Skills Marketplace",
   "description": "A curated collection of high-quality skills for Claude Code covering productivity, development, testing, and documentation workflows",
   "version": "1.0.0",
-  "author": "CC Skills Team",
+  "owner": {
+    "name": "CC Skills Team"
+  },
   "homepage": "https://github.com/neill-k/cc-skills",
   "repository": {
     "type": "git",
@@ -11,10 +13,9 @@
   "plugins": [
     {
       "name": "cc-skills-marketplace",
-      "path": ".",
+      "source": ".",
       "description": "Core marketplace plugin with browsing and installation commands",
-      "version": "1.0.0",
-      "categories": ["productivity", "development", "testing", "documentation"]
+      "version": "1.0.0"
     }
   ],
   "categories": [
