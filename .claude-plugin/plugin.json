@@ -8,38 +8,5 @@
   "homepage": "https://github.com/neill-k/cc-skills",
   "repository": "https://github.com/neill-k/cc-skills.git",
   "license": "MIT",
-  "keywords": ["skills", "marketplace", "productivity", "development", "testing", "clojure", "repl", "exec-plan"],
-  "commands": [
-    {
-      "name": "skills",
-      "description": "Browse, search, and install skills from the marketplace",
-      "file": "./commands/skills.md"
-    },
-    {
-      "name": "skills-browse",
-      "description": "Browse all available skills by category",
-      "file": "./commands/browse.md"
-    },
-    {
-      "name": "skills-search",
-      "description": "Search for skills by name, description, or tags",
-      "file": "./commands/search.md"
-    },
-    {
-      "name": "skills-install",
-      "description": "Install a skill from the marketplace",
-      "file": "./commands/install.md"
-    },
-    {
-      "name": "skills-info",
-      "description": "Get detailed information about a specific skill",
-      "file": "./commands/info.md"
-    }
-  ],
-  "skills": [
-    "./skills/productivity/*.md",
-    "./skills/development/*.md",
-    "./skills/testing/*.md",
-    "./skills/documentation/*.md"
-  ]
+  "keywords": ["skills", "exec-plan", "clojure", "repl", "development", "planning"]
 }
