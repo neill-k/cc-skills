@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "A comprehensive skills marketplace for Claude Code with browsing, search, and installation capabilities",
   "author": "CC Skills Team",
-  "homepage": "https://github.com/your-org/cc-skills",
+  "homepage": "https://github.com/neill-k/cc-skills",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-org/cc-skills.git"
+    "url": "https://github.com/neill-k/cc-skills.git"
   },
   "license": "MIT",
   "keywords": ["skills", "marketplace", "productivity", "development", "testing"],

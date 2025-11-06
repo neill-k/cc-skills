@@ -1,7 +1,7 @@
 # CC Skills Marketplace
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/your-org/cc-skills/releases)
+[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/neill-k/cc-skills/releases)
 [![Skills](https://img.shields.io/badge/skills-2-orange.svg)](#available-skills)
 
 > A skills marketplace for Claude Code featuring production-grade development methodologies: ExecPlan for structured task planning and REPL-Driven Development for interactive Clojure programming
@@ -46,7 +46,7 @@
 In Claude Code, register this marketplace:
 
 ```bash
-/plugin marketplace add your-org/cc-skills
+/plugin marketplace add neill-k/cc-skills
 ```
 
 Replace `your-org` with your actual GitHub organization or username.
@@ -483,8 +483,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### Getting Help
 
 - **Documentation**: See individual skill files for detailed usage
-- **Issues**: [GitHub Issues](https://github.com/your-org/cc-skills/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-org/cc-skills/discussions)
+- **Issues**: [GitHub Issues](https://github.com/neill-k/cc-skills/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/neill-k/cc-skills/discussions)
 
 ### Frequently Asked Questions
 
