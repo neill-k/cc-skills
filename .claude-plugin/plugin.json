@@ -1,0 +1,46 @@
+{
+  "name": "cc-skills-marketplace",
+  "version": "1.0.0",
+  "description": "A comprehensive skills marketplace for Claude Code with browsing, search, and installation capabilities",
+  "author": "CC Skills Team",
+  "homepage": "https://github.com/your-org/cc-skills",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/cc-skills.git"
+  },
+  "license": "MIT",
+  "keywords": ["skills", "marketplace", "productivity", "development", "testing"],
+  "commands": [
+    {
+      "name": "skills",
+      "description": "Browse, search, and install skills from the marketplace",
+      "file": "commands/skills.md"
+    },
+    {
+      "name": "skills-browse",
+      "description": "Browse all available skills by category",
+      "file": "commands/browse.md"
+    },
+    {
+      "name": "skills-search",
+      "description": "Search for skills by name, description, or tags",
+      "file": "commands/search.md"
+    },
+    {
+      "name": "skills-install",
+      "description": "Install a skill from the marketplace",
+      "file": "commands/install.md"
+    },
+    {
+      "name": "skills-info",
+      "description": "Get detailed information about a specific skill",
+      "file": "commands/info.md"
+    }
+  ],
+  "skills": [
+    "skills/productivity/*.md",
+    "skills/development/*.md",
+    "skills/testing/*.md",
+    "skills/documentation/*.md"
+  ]
+}

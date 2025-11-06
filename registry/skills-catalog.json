@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-01-10",
+  "skills": [
+    {
+      "id": "exec-plan",
+      "name": "ExecPlan",
+      "description": "Create structured, living work plans for complex coding tasks with progress tracking, decision logs, and verification steps",
+      "category": "development",
+      "author": "CC Skills Team",
+      "version": "1.0.0",
+      "tags": ["planning", "execution", "project-management", "documentation", "architecture", "workflow", "task-tracking"],
+      "path": "skills/development/exec-plan.md",
+      "featured": true,
+      "difficulty": "intermediate",
+      "estimatedTime": "10-20 minutes to create plan, ongoing for updates"
+    },
+    {
+      "id": "repl-driven-clojure",
+      "name": "REPL-Driven Development with Clojure",
+      "description": "Master REPL-driven development workflow for Clojure 1.12 with live coding, rich comment blocks, state management, and iterative design",
+      "category": "development",
+      "author": "CC Skills Team",
+      "version": "1.0.0",
+      "tags": ["clojure", "repl", "interactive-programming", "functional-programming", "live-coding", "clojure-1.12", "workflow", "state-management"],
+      "path": "skills/development/repl-driven-clojure.md",
+      "featured": true,
+      "difficulty": "intermediate",
+      "estimatedTime": "15-30 minutes to learn, ongoing practice"
+    }
+  ],
+  "stats": {
+    "totalSkills": 2,
+    "categories": {
+      "productivity": 0,
+      "development": 2,
+      "testing": 0,
+      "documentation": 0
+    }
+  }
+}
