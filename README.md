@@ -54,7 +54,7 @@ Replace `your-org` with your actual GitHub organization or username.
 ### Step 2: Install the Plugin
 
 ```bash
-/plugin install cc-skills-marketplace@your-org
+/plugin install neills-skills@your-org
 ```
 
 ### Step 3: Verify Installation

@@ -1,46 +1,45 @@
 {
-  "name": "cc-skills-marketplace",
+  "name": "neills-skills",
   "version": "1.0.0",
-  "description": "A comprehensive skills marketplace for Claude Code with browsing, search, and installation capabilities",
-  "author": "CC Skills Team",
-  "homepage": "https://github.com/neill-k/cc-skills",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/neill-k/cc-skills.git"
+  "description": "Production-grade skills for Claude Code: ExecPlan for structured planning and REPL-Driven Development for Clojure 1.12",
+  "author": {
+    "name": "Neill Killgore"
   },
+  "homepage": "https://github.com/neill-k/cc-skills",
+  "repository": "https://github.com/neill-k/cc-skills.git",
   "license": "MIT",
-  "keywords": ["skills", "marketplace", "productivity", "development", "testing"],
+  "keywords": ["skills", "marketplace", "productivity", "development", "testing", "clojure", "repl", "exec-plan"],
   "commands": [
     {
       "name": "skills",
       "description": "Browse, search, and install skills from the marketplace",
-      "file": "commands/skills.md"
+      "file": "./commands/skills.md"
     },
     {
       "name": "skills-browse",
       "description": "Browse all available skills by category",
-      "file": "commands/browse.md"
+      "file": "./commands/browse.md"
     },
     {
       "name": "skills-search",
       "description": "Search for skills by name, description, or tags",
-      "file": "commands/search.md"
+      "file": "./commands/search.md"
     },
     {
       "name": "skills-install",
       "description": "Install a skill from the marketplace",
-      "file": "commands/install.md"
+      "file": "./commands/install.md"
     },
     {
       "name": "skills-info",
       "description": "Get detailed information about a specific skill",
-      "file": "commands/info.md"
+      "file": "./commands/info.md"
     }
   ],
   "skills": [
-    "skills/productivity/*.md",
-    "skills/development/*.md",
-    "skills/testing/*.md",
-    "skills/documentation/*.md"
+    "./skills/productivity/*.md",
+    "./skills/development/*.md",
+    "./skills/testing/*.md",
+    "./skills/documentation/*.md"
   ]
 }
