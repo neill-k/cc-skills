@@ -1,47 +1,22 @@
 {
   "name": "neills-skills",
-  "description": "Production-grade skills for Claude Code: ExecPlan for structured planning and REPL-Driven Development for Clojure 1.12",
-  "version": "1.0.0",
   "owner": {
     "name": "Neill Killgore"
   },
-  "homepage": "https://github.com/neill-k/cc-skills",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/neill-k/cc-skills.git"
+  "metadata": {
+    "description": "Production-grade skills for Claude Code: ExecPlan for structured planning and REPL-Driven Development for Clojure 1.12",
+    "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "neills-skills",
-      "source": "./",
       "description": "Core skills plugin with ExecPlan and REPL-Driven Development",
-      "version": "1.0.0"
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/development/exec-plan",
+        "./skills/development/repl-driven-clojure"
+      ]
     }
-  ],
-  "categories": [
-    {
-      "id": "productivity",
-      "name": "Productivity",
-      "description": "Skills to boost your productivity and workflow efficiency"
-    },
-    {
-      "id": "development",
-      "name": "Development",
-      "description": "Development workflow and code quality skills"
-    },
-    {
-      "id": "testing",
-      "name": "Testing",
-      "description": "Testing strategies, frameworks, and quality assurance"
-    },
-    {
-      "id": "documentation",
-      "name": "Documentation",
-      "description": "Documentation generation and maintenance skills"
-    }
-  ],
-  "featured": [
-    "exec-plan",
-    "repl-driven-clojure"
   ]
 }
